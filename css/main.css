@@ -1,0 +1,91 @@
+
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("https://4.bp.blogspot.com/-NusT8_BxXvU/WigtjvJvKLI/AAAAAAABOyg/VP7N3f2xgkAOOU2LPKaVCBdTsMiDJp_EgCK4BGAYYCw/s1600/Web-design.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 6rem; 
+}
+
+.content{
+  width: 50%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.login h1{
+  text-align: center;
+}
+
+.login input{
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.box{
+  display: flex;
+}
+
+.fa-user,
+.fa-lock-alt{
+  padding-top: .3em;
+  color: gray;
+  padding-right: .5em;
+}
+
+hr{
+  border: none;
+  height: 1px;
+  background-color: gray;
+}
+
+.button{
+  text-align: center;
+}
+
+.btn{
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  padding: .5em;
+  color: #fff;
+  background-image: linear-gradient(to left, darkcyan, royalblue, red);
+}
+
+.login p{
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.login .icons{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 2rem;
+}
+
+.fa-facebook{
+  color: royalblue;
+  cursor: pointer;
+}
+.fa-twitter{
+  cursor: pointer;
+  color: skyblue;
+}
+.fa-google{
+  cursor: pointer;
+  color: tomato;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google:hover{
+  color: crimson;
+  transform: scale();
+}
